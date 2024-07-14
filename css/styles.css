@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background: lightgrey;
+    font-family: Roboto;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 40px 0;
+}
+
+header {
+    display: flex;
+    background: white;
+    height: 10vh;
+}
+
+header h1 {
+    position: relative;
+    left: 23vw;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 20px;
+    }
+}
+
+/* --- FEED --- */
+
+.feed{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cardHeader {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardTitle, .cardDate {
+    margin: 0;
+    align-self: center;
+}
+
+.cardTitle {
+    flex-grow: 1;
+}
+
+.cardImage {
+    background: white;
+}
+
+.cardImage img {
+    width: 100%;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+}
+
+.icons {
+    display: flex;
+    background: white;
+    padding: 10px;
+    position: relative;
+}
+
+.icons i {
+    margin: 10px 10px;
+}
+
+.pushRight i{
+    position:absolute;
+    right: 1px;
+}
+
+.cardFooter{
+    background: white;
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cardFooter p {
+    margin: 0;
+    padding: 0;
+}
+
+
